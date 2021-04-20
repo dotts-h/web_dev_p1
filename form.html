@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form - Proiect - 1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <header>
+            <h1 id="nume">Proiect - 1</h1>
+            <hr class="header-nav">
+
+            <nav class="topnav">
+                <a href="index.html">Home</a> |
+                <a href="lti.html">LTI</a>  |
+                <a href="form.html">Form</a> |
+                <a href="fig.html">Figures</a>
+            </nav>
+            <hr class="header-nav">
+        </header>
+
+        <section id="form-sect">
+            <h2>Connection Details</h2>
+            <form action="">
+                <label for="fname">First Name:</label><br class="form-br">
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br class="form-br">
+                <input type="text" id="lname" name="lname"> <br>
+                <label for="paswd">Password:</label><br class="form-br">
+                <input type="password" id="paswd" name="paswd"><br>
+                <label for="agreement">Do you aggree to share your info?</label><br>
+                <section id="agreement">
+                    <input type="radio" id="yes" name="agreement" value="yes" checked>
+                    <label for="yes">Yes</label><br class="form-br">
+                    <input type="radio" id="no" name="agreement" value="no">
+                    <label for="no">No</label>
+                </section>
+                <br>
+                <section id="submit">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </section>
+            </form>
+        </section>
+
+        <footer>
+            <p id="footer-cp">&copy; Nuță Horia-Cătălin 2021</p>
+        </footer>
+    </body>
+</html>
