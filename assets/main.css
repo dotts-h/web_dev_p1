@@ -1,5 +1,7 @@
 html {
   font-size: 100%;
+  min-height: 100%;
+  position: relative;
 }
 body {
   background-color: #faf2e4;
@@ -92,6 +94,9 @@ h2 {
   #picture-table table tr td {
     display: block;
   }
+  #picture-table table tr td img {
+    width: 80vw;
+  }
 }
 
 /*
@@ -144,16 +149,22 @@ input {
 svg {
   width: 50vw;
   height: 15vmax;
+  min-height: 12rem;
 }
 
 /*
     Footer
 */
 
+section {
+  margin-bottom: 3vmax;
+}
 footer {
   position: absolute;
   width: auto;
   bottom: 0;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 #footer-cp {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
